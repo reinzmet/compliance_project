@@ -1,0 +1,25 @@
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        {% for category, message in messages %}
+            <div class="alert alert-{{ category }}">{{ message }}</div>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detected Breaches</title>
+</head>
+<body>
+    <h1>Detected Compliance Breaches</h1>
+    <!-- Explicitly print breaches for debugging -->
+    <pre>{{ breaches }}</pre>
+    <ul>
+    {% for breach in breaches %}
+        <li>{{ breach.strip()|safe }}</li>
+    {% endfor %}
+    </ul>
+    <a href="/">Back to Home</a>
+</body>
+</html>

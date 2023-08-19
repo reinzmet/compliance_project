@@ -1,0 +1,2 @@
+DELETE
+All logins should be followed by a logout within 1 hour.

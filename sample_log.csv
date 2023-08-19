@@ -1,0 +1,5 @@
+Timestamp,UserID,Action,Resource
+2023-08-18 08:00:00,user1,LOGIN,system
+2023-08-18 08:05:23,user2,UPLOAD,data/file1.txt
+2023-08-18 08:15:10,user3,DELETE,data/file2.txt
+2023-08-18 08:30:00,user1,LOGOUT,system

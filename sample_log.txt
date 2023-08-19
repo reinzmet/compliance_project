@@ -1,0 +1,4 @@
+[2023-08-18 08:00:00] INFO: user1 logged in.
+[2023-08-18 08:05:23] INFO: user2 uploaded file data/file1.txt.
+[2023-08-18 08:15:10] WARNING: user3 deleted file data/file2.txt.
+[2023-08-18 08:30:00] INFO: user1 logged out.

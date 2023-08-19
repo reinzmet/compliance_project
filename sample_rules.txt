@@ -1,0 +1,2 @@
+No user should delete files.
+All logins should be followed by a logout within 1 hour.
